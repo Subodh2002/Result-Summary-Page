@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+#res-cont{
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 30rem;
+    box-shadow: 2px 12px 40px rgba(0, 0, 0, 0.212);
+    border-radius: 25px;
+    width: 40rem;
+    margin: auto;
+    margin-top: 15rem;
+    
+}
+
+#res-cont>#div1{
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+}
+#res-cont>#div1>#left-in-div1{
+    color: hsl(241, 100%, 89%);
+    margin-top: 2rem;
+}
+#res-cont>#div1>#left-in-div2{
+    margin-top: 2rem;
+}
+#res-cont>#div1>#left-in-div2>#circle{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0));
+    border-radius: 50%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 2rem 0 4rem 0;
+    color: hsl(241, 100%, 89%);
+}
+
+
+#res-cont>#div1>#left-in-div2>#circle>h1{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    margin-top: 1rem;
+
+}
+#res-cont>#div1>#left-in-div2>#circle>h5{
+    margin: 0;
+}
+#res-cont>#div1>#left-in-div3{
+    color: white;
+    margin: 0px 3rem 0px 3rem;
+}
+#res-cont>#div1>#left-in-div3>p{
+    color: hsl(241, 100%, 89%);
+}
+
+
+#res-cont>#div2
+{
+    color: hsl(224, 30%, 27%);
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+}
+#res-cont>#div2>#summary{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#res-cont>#div2>.sum{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-bottom: 1rem;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 800;
+}
+#res-cont>#div2>.sum>#left{
+    margin-left: 1rem;
+}
+.txt{
+    margin-left: 10px;
+    vertical-align: top;
+}
+.hundred{
+    color: hsl(223, 11%, 50%);
+}
+#res-cont>#div2>.sum>#right{
+    margin-right: 1rem;
+}
+
+#res-cont>#div2>#sum-div1{
+    background-color: hsla(0, 95%, 85%, 0.548);
+
+}
+#res-cont>#div2>#sum-div1>#left{
+    color:  hsl(0, 100%, 67%);
+}
+#res-cont>#div2>#sum-div2{
+    background-color: hsl(38, 90%, 88%);
+
+}
+#res-cont>#div2>#sum-div2>#left{
+    color:  hsl(39, 100%, 56%);
+}
+#res-cont>#div2>#sum-div3{
+    background-color: hsl(165, 62%, 90%);
+
+}
+#res-cont>#div2>#sum-div3>#left{
+    color:  hsl(166, 100%, 37%);
+}
+#res-cont>#div2>#sum-div4{
+    background-color: hsl(234, 100%, 92%);
+
+}
+#res-cont>#div2>#sum-div4>#left{
+    color:  hsl(234, 85%, 45%);
+}
+#res-cont>#div2>#con-btn{
+    margin-top: 2rem;
+}
+#res-cont>#div2>#con-btn>button{
+    width: 15rem;
+    height: 2.8rem;
+    border: none;
+    border-radius: 20rem;
+    background-color:hsl(224, 30%, 27%) ;
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+#res-cont>#div2>#con-btn>button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+}
+
+@media (max-width: 430px)
+{
+    #res-cont{
+        grid-template-columns: 100%;
+        grid-template-rows: 25rem 28rem;
+        border-radius: 0;
+        width: 100%;
+        margin-top: 0rem;
+    }
+    #res-cont>#div1{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    #res-cont>#div1>#left-in-div2>#circle{
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding: 1rem 0 2rem 0;
+    }
+
+    #res-cont>#div2>#con-btn>button{
+        width: 20rem;
+        height: 3.5rem;
+        font-size: 1.1rem;
+        margin-left: 0;
+    }
+}
